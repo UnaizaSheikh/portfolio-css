@@ -1,0 +1,29 @@
+.card{
+    padding: 1.5rem 1rem;
+    background-color: var(--button-color);
+    border-radius: .75rem;
+    text-align: start;
+    
+
+    &:hover{
+        background-color: var(--hover-button-color);
+    }
+}
+.cardImage{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1rem;
+
+}
+.card h1{
+    font-size: 18px;
+    
+    line-height: 2rem;
+    margin-bottom: .9688rem;
+}
+.card p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}

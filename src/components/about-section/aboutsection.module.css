@@ -1,0 +1,66 @@
+.about{
+    width: 100%;
+    background-color: var(--background-light-grey);
+    padding: 10rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.aboutLeftDiv{
+    width: 40.70%;
+    
+
+}
+.aboutLeftDiv h1{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: .5rem;
+    
+}
+.aboutLeftDiv p{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: var(--logo-color);
+}
+.detailText{
+   font-size: 15.88px;
+   line-height: 25px;
+   color: white;
+   margin-top: 1.4688rem;
+   margin-bottom: 2.0313rem;
+}
+.aboutRightDiv{
+
+   margin-right: 190px;
+   
+}
+@media(max-width:768px){
+    .about{
+        
+        padding: 3.75rem 2.5rem 10rem 2.5rem;
+     }
+     .aboutLeftDiv p{
+        width: 45.182%;
+    }
+    .aboutRightDiv{
+
+        margin-right: 0px;
+        
+     }
+     .img{
+        width: 350px;
+     }
+}
+@media(max-width:390px){
+   .about{
+    padding: 10rem 0rem;
+    flex-direction: column;
+   }
+   .aboutLeftdiv{
+    
+    width: 90%;
+   }
+}
